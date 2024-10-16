@@ -1,0 +1,18 @@
+.header {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+
+  &-title {
+    color: white;
+    letter-spacing: 15px;
+    margin: 5% 0% 5% 0%;
+    font-size: 3em;
+    font-weight: normal;
+  }
+
+  &-icon {
+    color: white;
+    width: 60px;
+    margin: 10% 0% 0% 70%;
+  }
+}
